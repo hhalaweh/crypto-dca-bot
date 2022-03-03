@@ -3,9 +3,8 @@
 A python bot that allows you to automatically DCA (Dollar-Cost Averaging) into and out of cryptocurrencies of your choice using Binance.
 
 The Crypto DCA Bot also notifies you on telegram with each buy and sell order initiated.  
-
-After successfully setting up the bot, you will receive 
-
+# Table of Contents
+1. [Setup](https://github.com/hhalaweh/crypto-dca-bot#setup)
 ## Setup
 ### Config File
 ### 1. Connecting Binance API [binance]

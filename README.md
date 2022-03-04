@@ -14,7 +14,7 @@ The Crypto DCA Bot also notifies you on telegram with each buy and sell order in
 
 ## Setup
 ### Config File
-```
+```json
 [binance]
 binance_api = 
 binance_secret = 

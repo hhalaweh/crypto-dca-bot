@@ -2,7 +2,7 @@
 import configparser as cp
 from binance.client import Client
 import requests as rq
-from datetime import datetime, date
+from datetime import datetime
 import prettytable as pt
 import logging
 import re

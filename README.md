@@ -44,7 +44,13 @@ In ```usd_amount``` enter the USD amount you would like to DCA into/out of the c
 ##### **buy_sell**
 Setting it to ```BUY``` allows you to buy crypto, and setting it to ```SELL``` allows you to sell crypto.
 ### Python Requirements
+To install all requirements for the python file, run the following command:  
+```pip install -r /path/to/requirements.txt```
 ### Setting Up Cron Job
+To setup the cron job to run at a specific time, edit crontab, then add the job. In the example below the file will run on a weekly basis.  
+``` crontab -e ```  
+```@weekly /path/to/python3 /path/to/main.py >> /path/to/cron.log```
+
 ### Hosting Options
 
 

@@ -4,6 +4,10 @@ The Crypto DCA Bot allows you to automatically DCA (Dollar-Cost Averaging) into 
 
 The Crypto DCA Bot also notifies you on Telegram with each buy or sell order initiated.  
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/78810452/157215040-8e284ed4-0d81-49d5-bdaa-e9e3bf2c81b8.PNG" />
+</p>  
+
 ## Table of Contents
 - [Setup](#setup)
     - [Git Clone](#git-clone)

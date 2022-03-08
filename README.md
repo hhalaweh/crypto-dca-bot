@@ -3,8 +3,10 @@
 The Crypto DCA Bot allows you to automatically DCA (Dollar-Cost Averaging) into and out of cryptocurrencies of your choice using Binance.
 
 The Crypto DCA Bot also notifies you on Telegram with each buy or sell order initiated.  
+
 ## Table of Contents
 - [Setup](#setup)
+    - [Git Clone](#git-clone)
     - [Config File](#config-file)
         - [Config File Sample](#config-file-sample)
         - [1. Connecting Binance API ```[binance]```](#1-connecting-binance-api-binance)
@@ -12,9 +14,12 @@ The Crypto DCA Bot also notifies you on Telegram with each buy or sell order ini
         - [3. Configuring DCA ```[crypto]```](#1-connecting-binance-api-binance)
     - [Python Requirements](#python-requirements)
     - [Setting Up Cron Job](#setting-up-cron-job)
-    - [Hosting Options](#hosting-options)
+    - [Cloud Hosting](#cloud-hosting)
 
 ## Setup
+### Git Clone
+Run the following command to clone the repository files:  
+```git clone https://github.com/hhalaweh/crypto-dca-bot ```
 ### Config File
 #### Config File Sample
 ```ini
@@ -51,7 +56,10 @@ To setup the cron job to run at a specific time, edit crontab, then add the job.
 ``` crontab -e ```  
 ```@weekly /path/to/python3 /path/to/main.py >> /path/to/cron.log```
 
-### Hosting Options
+### Cloud Hosting
+The bot can be hosted on Digital Ocean so the cron job can run 24/7 without the need to keep your local machine running.  
+You can use my [referral link](https://m.do.co/c/0ccb438f7c20) to receive $100 credit for 60 days to test the code.
+
 
 
 

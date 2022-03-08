@@ -4,10 +4,12 @@ The Crypto DCA Bot allows you to automatically DCA (Dollar-Cost Averaging) into 
 
 The Crypto DCA Bot also notifies you on Telegram with each buy or sell order initiated.  
 
+---
 <p align="center">
   <img src="https://user-images.githubusercontent.com/78810452/157215040-8e284ed4-0d81-49d5-bdaa-e9e3bf2c81b8.PNG" />
 </p>  
 
+---
 ## Table of Contents
 - [Setup](#setup)
     - [Git Clone](#git-clone)
@@ -19,7 +21,9 @@ The Crypto DCA Bot also notifies you on Telegram with each buy or sell order ini
     - [Python Requirements](#python-requirements)
     - [Setting Up Cron Job](#setting-up-cron-job)
     - [Cloud Hosting](#cloud-hosting)
+- [License](#license)  
 
+---
 ## Setup
 ### Git Clone
 Run the following command to clone the repository files:  
@@ -64,6 +68,9 @@ To setup the cron job to run at a specific time, edit crontab, then add the job.
 The bot can be hosted on Digital Ocean so the cron job can run 24/7 without the need to keep your local machine running.  
 You can use my [referral link](https://m.do.co/c/0ccb438f7c20) to receive $100 credit for 60 days to test the code.
 
+---
+## License
+[MIT License](https://opensource.org/licenses/MIT)
 
 
 

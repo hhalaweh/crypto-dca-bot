@@ -6,8 +6,9 @@ The Crypto DCA Bot also notifies you on Telegram with each buy or sell order ini
 
 ---
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/78810452/157215040-8e284ed4-0d81-49d5-bdaa-e9e3bf2c81b8.PNG" />
+  <img src="https://user-images.githubusercontent.com/78810452/157315520-56587405-4026-4b8d-b6de-86bd87a752cc.PNG" />
 </p>  
+
 
 ---
 ## Table of Contents
@@ -62,7 +63,7 @@ To install all requirements for the python file, run the following command:
 ### Setting Up Cron Job
 To setup the cron job to run at a specific time, edit crontab, then add the job. In the example below the file will run on a weekly basis.  
 ``` crontab -e ```  
-```@weekly /path/to/python3 /path/to/main.py >> /path/to/cron.log```
+```@weekly bash -c 'cd /home/crypto-dca-bot && python3 main.py' >> /home/cron.log```
 
 ### Cloud Hosting
 The bot can be hosted on Digital Ocean so the cron job can run 24/7 without the need to keep your local machine running.  
